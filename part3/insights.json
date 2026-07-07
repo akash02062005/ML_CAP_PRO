@@ -1,0 +1,22 @@
+{
+  "insights": [
+    {
+      "finding": "Smokers cost dramatically more than non-smokers.",
+      "evidence": "Mean charges: smokers $30,039.44 vs non-smokers $8,446.88 (3.6x).",
+      "confidence": "high",
+      "recommendation": "Price smoker risk explicitly and fund smoking-cessation programs to reduce claim costs."
+    },
+    {
+      "finding": "Charges rise consistently but non-linearly with age.",
+      "evidence": "Spearman age-charges 0.508 vs Pearson 0.273 indicates a monotonic, non-proportional relationship.",
+      "confidence": "high",
+      "recommendation": "Use age-banded pricing tiers rather than a single linear age loading."
+    },
+    {
+      "finding": "The charges distribution is heavily right-skewed.",
+      "evidence": "Mean $12,939.24 well above median $9,289.08; skew about +1.5.",
+      "confidence": "medium",
+      "recommendation": "Report median (not mean) cost in dashboards and reserve capital for the expensive tail."
+    }
+  ]
+}
