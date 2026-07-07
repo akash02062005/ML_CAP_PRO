@@ -1,0 +1,12 @@
+# secrets — never commit real keys
+.env
+*/.env
+
+# python
+__pycache__/
+*.pyc
+.venv/
+
+# generated runtime logs
+*/guardrail_log.jsonl
+*/run_log.txt
