@@ -6,7 +6,7 @@
   <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="MIT License"/>
 </p>
 
-<h1 align="center">🧠 Data-to-AI Capstone Project</h1>
+<h1 align="center">🧠 Data-to-AI  Project</h1>
 
 <p align="center">
   <strong>End-to-end machine learning pipeline — from raw data to production-grade LLM system</strong>
@@ -381,7 +381,3 @@ cd part4 && python part4_system.py --selftest && cd ..
 This project is developed as part of an academic capstone. All code is original and the dataset is publicly available.
 
 ---
-
-<p align="center">
-  <strong>Built with ❤️ by <a href="https://github.com/akash02062005">Akash S</a></strong>
-</p>
